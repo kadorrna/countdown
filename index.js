@@ -1,4 +1,4 @@
-var deadline = "Sep 25 2022 19:30:00 GMT-0300";
+var deadline = "Sep 25 2022 10:30:00 GMT-0300";
 function time_remaining(endtime) {
   var t = Date.parse(endtime) - Date.parse(new Date());
   var seconds = Math.floor((t / 1000) % 60);
